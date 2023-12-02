@@ -1,0 +1,15 @@
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\bin\Debug\net8.0\TRAB-AED-2023.exe
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\bin\Debug\net8.0\TRAB-AED-2023.deps.json
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\bin\Debug\net8.0\TRAB-AED-2023.runtimeconfig.json
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\bin\Debug\net8.0\TRAB-AED-2023.dll
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\bin\Debug\net8.0\TRAB-AED-2023.pdb
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.AssemblyInfoInputs.cache
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.AssemblyInfo.cs
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.csproj.CoreCompileInputs.cache
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.sourcelink.json
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.dll
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\refint\TRAB-AED-2023.dll
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.pdb
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\TRAB-AED-2023.genruntimeconfig.cache
+C:\Users\Kaio\source\repos\TRAB-AED-2023\TRAB-AED-2023\obj\Debug\net8.0\ref\TRAB-AED-2023.dll

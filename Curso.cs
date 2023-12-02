@@ -9,10 +9,10 @@ namespace TRAB_AED_2023
 
     internal class Curso
     {
-        private string codigo {  get; set; }
-        private string nome { get; set; }
-        private int qtdVagas { get; set; }
-        private static double notaDeCorte;
+        public string nome { get; set; }
+        public int qtdVagas { get; set; }
+
+        public static double notaDeCorte;
 
     }
 }
