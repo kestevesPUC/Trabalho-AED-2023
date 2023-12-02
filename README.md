@@ -1,4 +1,4 @@
-# Trabalho AED-2023
+Trabalho AED-2023
 
 Pontifícia Universidade Católica de Minas Gerais Algoritmos e Estruturas de Dados
 Valor: 10 pontos Professora: Ana Paula de Carvalho
