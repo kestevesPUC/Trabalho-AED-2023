@@ -287,3 +287,16 @@ Selecionados
 Rogério Azevedo Costa 433,33
 Marcelo Rodrigues Leal 233,33
 Fila de Espera
+
+
+
+
+
+
+
+- Etapas do projeto:
+
+-Realizar carga em estruturas de dados. ✔
+-Ordenar estrutura de dados com os candidatos pela média. ✔
+-Realizar o processamento dos dados. ✔
+-Criar saída do arquivo.

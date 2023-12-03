@@ -1,20 +1,21 @@
 ﻿using System;   
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TRAB_AED_2023
 {
-    internal class CagaTXT
+    internal class Arquivo
     {
-        public void leArquivoTxt()
+            const string PATH = "../../../Docs\\";
+        public void LeArquivoTxt()
         {
-            const string PATH = "../../../Docs\\entrada.txt";
             try
             {
                 StreamReader sw = new StreamReader(
-                    Path.Combine(Environment.CurrentDirectory, PATH),
+                    Path.Combine(Environment.CurrentDirectory, PATH + "entrada.txt"),
                     Encoding.GetEncoding("iso-8859-1")
                     );
 
@@ -33,7 +34,9 @@ namespace TRAB_AED_2023
                         string nomeCurso = elementos[1];
                         int vagasCurso = int.Parse(elementos[2]);
 
-                        Program.cursos.Add(codCurso, new Curso{ nome = nomeCurso, qtdVagas = vagasCurso }); // Adiciona ao dicionário um (Chave: (int)codigo, Curso: (object)valor)
+                        Curso curso = new Curso(vagasCurso);
+                        curso.nome = nomeCurso;
+                        Program.cursos.Add(codCurso, curso); // Adiciona ao dicionário um (Chave: (int)codigo, Curso: (object)valor)
                     } else
                     {
                         string nomeCandidato = elementos[0];
@@ -58,6 +61,21 @@ namespace TRAB_AED_2023
                 }
                 sw.Close();
                 
+            } catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public void EscreverArquivo(string texto)
+        {
+            try
+            {
+                // Escrever o conteúdo no arquivo
+                using (StreamWriter writer = new StreamWriter(Path.Combine(Environment.CurrentDirectory, PATH + "saida.txt")))
+                {
+                    writer.WriteLine(texto);
+                }
             } catch (Exception e)
             {
                 Console.WriteLine(e.Message);

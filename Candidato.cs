@@ -14,5 +14,10 @@ namespace TRAB_AED_2023
         public double notaLinguagens {  get; set; }
         public int opcCurso_1 { get; set; }
         public int opcCurso_2 { get; set; }
+
+        public double getMedia()
+        {
+            return (notaLinguagens + notaMatematica + notaRedacao) / 3;
+        }
     }
 }
